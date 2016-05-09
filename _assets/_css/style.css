@@ -1,0 +1,475 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Orbitron:500);
+
+/* Fayzor1999 */
+
+/* Geral */
+body {
+    background-color: black;
+    color: green;
+    height: 100%;
+}
+
+p {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: justify;
+    text-indent: 30px;
+}
+
+
+/* Interface */
+#interface {
+    width: 900px;
+    margin: -20px auto auto auto;
+    /*box-shadow: 0px 0px 3px 1px darkslategrey;*/
+    border: 0px;
+    padding-top: 10px;
+}
+
+/* Cabeçalho */
+#cabecalho h1{
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+    padding-left: 40px;
+    margin-bottom: 0px;
+}
+
+#cabecalho h4{
+    font-family: 'Orbitron', sans-serif;
+    color: forestgreen;
+    padding-left: 40px;
+    margin-top: 0px;
+}
+
+
+
+/* Menu */
+#menu {
+    display: block;
+}
+
+#menu ul {
+    list-style: none;
+    text-transform: uppercase;
+    background-color: rgba(255, 255, 255, 0.05);
+    border: 1px solid;
+    margin-bottom: 0px;
+}
+
+#menu li {
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px;
+    margin: 0px -5px 0px 0px;
+}
+
+#menu h1 {
+    display: none;
+}
+
+#menu a {
+    color: green;
+    font-size: 12pt;
+    text-decoration: none;
+    text-shadow: 0px 0px 1px black;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+#menu a:hover {
+    color: greenyellow;
+}
+
+
+
+
+/* Conteúdo corpo */
+#corpo {
+    display: block;
+    width: 580px;
+    height: auto;
+    float: left;
+}
+
+#not {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#ranking {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#register {
+    border-left: 1px solid;
+    border-right: 1px solid;
+    border-bottom: 1px solid;
+}
+
+#cab {
+    position: relative;
+    position: relative;
+    padding: 10px 0px 10px 0px;
+    border-top: 1px solid;
+    margin-top: 10px;
+}
+
+#cab {
+    position: relative;
+    padding: 10px 0px 10px 0px;
+    border-top: 1px solid;
+    border-bottom: 1px solid;
+    margin-top: 10px;
+}
+
+#titulo {
+    font-family: 'Orbitron', sans-serif;
+    margin-left: 50px;
+    color: green;
+    font-size: 18pt;
+}
+
+#data {
+    color: green;
+    float: right;
+    margin-right: 10px;
+    font-family: courier;
+    font-size: 8pt;
+    border-bottom: 1px dashed transparent;
+    -webkit-transition: border-bottom .5s;
+    -moz-transition: border-bottom .5s;
+    -ms-transition: border-bottom .5s;
+    -o-transition: border-bottom .5s;
+    transition: border-bottom .5s;
+}
+#data:hover {
+    border-bottom: 1px dashed;
+}
+
+#conteudo{
+    color: grey;
+    font-family: courier;
+    font-size: 11pt;
+}
+
+#rankingP p{
+	font-family: 'Orbitron', sans-serif;
+	font-size: 10pt;
+	text-indent: 0;
+	color: white
+	text-align: center;
+}
+
+
+/* Conteúdo lateral */
+#lateral {
+    display: block;
+    border: 1px solid;
+    width: 310px; /*39*/
+    float: right;
+    margin-top: 10px;
+}
+
+::-webkit-input-placeholder {  color: rgba(100, 255, 20, 0.3);  }
+:-moz-placeholder {  color: rgba(100, 255, 20, 0.3);  }
+::-moz-placeholder {  color: rgba(100, 255, 20, 0.3);  }
+:-ms-input-placeholder {  color: rgba(100, 255, 20, 0.3);  }
+
+/* Lateral conteúdo */
+#menu-lateral {
+    list-style: none;
+    background-color: transparent;
+    border-bottom: 1px solid darkgreen;
+}
+
+#register {
+	border:0;
+}
+
+.form {
+	margin-top: 5px;
+	padding: 4px;
+	padding-bottom: 1px;
+	font-size: 10pt;
+    color: rgba(0, 255, 0, 0.4);
+    font-family: courier;
+    background-color: transparent;
+    border: 1px solid darkgreen;
+}
+
+.button{
+    font-family: 'Orbitron', sans-serif;
+    color: darkgreen;
+    background-color: transparent;
+    font-size: 12pt;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    padding-right: 10px;
+    padding-left: 10px;
+    border: 1px solid darkgreen;
+    -webkit-transition: background-color 1s, color 1s;
+    -moz-transition: background-color 1s, color 1s;
+    -ms-transition: background-color 1s, color 1s;
+    -o-transition: background-color 1s, color 1s;
+    transition: background-color 1s, color 1s;
+}
+.button:hover {
+    background-color: rgba(0, 40, 0, 1);
+    color: rgba(150, 255, 150, 1);
+}
+
+#menu-lateral a {
+    color: green;
+    font-family: 'Orbitron', sans-serif;
+    text-decoration: none;
+    font-size: 11pt;
+    transition: color 0.8s;
+}
+#menu-lateral a:hover {
+    color: greenyellow;
+}
+
+#menu-lateral p {
+    margin: 6px;
+    padding: 0;
+    text-indent: 0;
+}
+
+#menu-lateral fieldset {
+    border: 1px dashed rgba(0, 255, 0, 0.15);
+    color: darkgreen;
+    font-family: 'Orbitron', sans-serif;
+    padding: 0;
+    margin: 0 auto;
+}
+
+fieldset#fazerlogin {
+    border: 0;
+    border-top: 1px solid green;
+    margin: 4px;
+}
+
+fieldset#esqueci {
+    border-top: 1px solid green;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 4px;
+    padding: 4px;
+}
+
+fieldset#cadastro {
+    border-top: 1px solid green;
+    border-bottom: 0px;
+    border-left: 0px;
+    border-right: 0px;
+    margin: 4px;
+    padding: 4px;
+}
+
+input:-webkit-autofill {
+    -webkit-box-shadow:0 0 0 50px black inset; /* Change the color to your own background color */
+    -webkit-text-fill-color: green;
+}
+
+fieldset#dados {
+    border: 0px;
+    position: relative;
+    bottom: 20px;
+}
+
+fieldset#dados legend{
+    visibility: hidden;
+}
+
+fieldset#dados input {
+    border: 1px solid #035108;
+    height: 18px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    -webkit-transition: border .1s;
+    -moz-transition: border .1s;
+    -ms-transition: border .1s;
+    -o-transition: border .1s;
+    transition: border .1s;
+}
+
+fieldset#dados input:hover {
+    border: 1px solid darkgreen;
+}
+
+fieldset#dados input:focus {
+    border: 1px solid darkgreen;
+}
+
+fieldset#captcha {
+    margin-top: -14px;
+    margin-bottom: -14px;
+    width: 30%;
+}
+
+fieldset img {
+    width: 120px;
+    height: 32px;
+}
+
+.captcha {
+    width: 96%;
+    color: green;
+    text-align: center;
+    font-family: Consolas;
+    background-color: transparent;
+    padding: 2px;
+    border: 1px solid #035108;
+}
+
+fieldset#rbt {
+    border: 0;
+}
+
+#rbt legend {
+    visibility: hidden;
+}
+
+.forget {
+    margin-top: 8px;
+    float: right;
+}
+.rlogin {
+    margin-top: 8px;
+    float: right;
+}
+.clogin {
+    margin-top: 8px;
+    float: right;
+}
+
+
+
+/*Login*/
+#longed{
+	border: 1px transparent;
+	width: 90%;
+	margin: 5%;
+	font-size: 10pt;
+	text-align: left;
+}
+
+#longed p{
+	font-size: 10pt;
+	font-family: courier;
+}
+
+#longed tfoot td{
+	padding-top: 10px;
+}
+
+#longed caption{
+	padding-bottom: 10px;
+}
+
+#longed img{
+	box-shadow: 0px 0px 0px 2px darkgreen;
+}
+
+#rank_a {
+  font-family: 'Orbitron', sans-serif;
+}
+
+
+.btn{
+  font-family: 'Orbitron', sans-serif;
+  color: rgba(255, 255, 255, 0.7);
+  text-shadow: 1px 1px 1px darkgreen;
+  font-size: 14px;
+  background: rgba(0, 255, 0, 0.05);
+  text-decoration: none;
+  cursor: pointer;
+}
+
+/* Erro/Aviso */
+fieldset#erro {
+	font-family: 'Orbitron', sans-serif;
+	padding: 0;
+	margin: 10px;
+	margin-left: 5%;
+    font-size: 12pt;
+    color: red;
+    border: 1px dotted darkred;
+    width: 90%;
+    display: inline;
+}
+
+fieldset#erro p {
+    font-size: 10pt;
+    font-family: courier;
+    color: rgba(255, 0, 0, 0.5);
+    width: 90%;
+    text-align: center;
+}
+
+fieldset#aviso {
+	font-family: 'Orbitron', sans-serif;
+	padding: 0;
+	margin: 10px;
+	color: blue;
+	margin-left: 5%;
+    font-size: 12pt;
+    border: 1px dotted rgba(0, 0, 255, 0.5);
+    width: 90%;
+    display: inline;
+}
+
+fieldset#aviso p {
+    font-size: 10pt;
+    font-family: courier;
+    color: rgba(0, 0, 255, 0.5);
+    width: 90%;
+    text-align: center;
+}
+
+
+
+
+/* Footer rodapé */
+#rodape {
+	clear: both;
+    position: absolute;
+    bottom: 0;
+    width: 900px;
+    border-top: 1px dashed transparent;
+}
+
+#rodape p {
+    font-family: 'Orbitron', sans-serif;
+    border-top: 1px solid;
+    padding-top: 10px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    color: green;
+}
+
+#copy {
+    font-size: 10pt;
+    text-shadow: 1px 1px 1px #03550a;
+    color: green;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+#copy:hover {
+    color: chartreuse;
+}

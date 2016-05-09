@@ -1,0 +1,181 @@
+@charset "UTF-8";
+@import url(https://fonts.googleapis.com/css?family=Orbitron:500);
+
+/* Fayzor1999 */
+
+
+/* Geral */
+body {
+    background-color: black;
+    color: green;
+    height: 100%;
+}
+
+p {
+    text-align: justify;
+    text-indent: 30px;
+}
+
+
+/* Interface */
+#interface {
+	height: 100%;
+    width: 900px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: -20px auto auto auto;
+    /*box-shadow: 0px 0px 3px 1px darkslategrey;*/
+    border: 1px solid green;
+    padding-top: 10px;
+}
+
+/* Cabeçalho */
+#cabecalho h1{
+    font-family: 'Orbitron', sans-serif;
+    color: aqua;
+    padding-left: 40px;
+    margin-bottom: 0px;
+}
+
+#cabecalho h4{
+    font-family: 'Orbitron', sans-serif;
+    color: forestgreen;
+    padding-left: 40px;
+    margin-top: 0px;
+}
+
+
+
+
+/* Menu */
+#menu {
+    display: block;
+}
+
+#menu ul {
+	text-align: center;
+    list-style: none;
+    text-transform: uppercase;
+    background-color: transparent;
+    border: 1px solid;
+    margin-bottom: 0px;
+}
+
+#menu li {
+    display: inline-block;
+    background-color: transparent;
+    padding: 10px;
+    margin: 0px -5px 0px 0px;
+}
+
+#menu h1 {
+    display: none;
+}
+
+#menu a {
+    color: green;
+    font-size: 12pt;
+    text-decoration: none;
+    text-shadow: 0px 0px 1px black;
+    font-family: 'Orbitron', sans-serif;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+#menu a:hover {
+    color: greenyellow;
+}
+
+
+
+
+
+
+#player {
+	display: block;
+	margin-top: 10px;
+	width: 230px;
+	border: 1px solid green;
+	padding: 5px;
+    height: auto;
+    float: left;
+}
+
+#player img {
+	border: 2px solid green;
+}
+
+#caption {
+	text-align: center;
+	text-shadow: 1px 1px 1px green solid;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#personagem {
+	text-shadow: 1px 1px 1px green solid;
+	font-family: 'Orbitron', sans-serif;
+}
+
+#personagem span{
+	color: rgba(255, 255, 0, 0.5);	
+}
+
+
+
+
+
+#game {
+    display: block;
+    font-family: 'Orbitron', sans-serif;
+    width: 650px; /*39*/
+    float: right;
+    margin-top: 10px;
+}
+
+#jogo {
+	padding: 5px;
+	list-style: none;
+    background-color: transparent;
+    border: 1px solid green;
+    margin-bottom: 10px;
+}
+
+
+
+
+
+
+/* Footer rodapé */
+#rodape {
+	clear: both;
+    width: 900px;
+    border-top: 1px dashed transparent;
+}
+
+#rodape p {
+    font-family: 'Orbitron', sans-serif;
+    border-top: 1px solid;
+    padding-top: 10px;
+    position: relative;
+    bottom: 0;
+    text-align: center;
+    color: green;
+}
+
+#copy {
+    font-size: 10pt;
+    text-shadow: 1px 1px 1px #03550a;
+    color: green;
+    -webkit-transition: color 1s;
+    -moz-transition: color 1s;
+    -ms-transition: color 1s;
+    -o-transition: color 1s;
+    transition: color 1s;
+}
+
+#copy:hover {
+    color: chartreuse;
+}
